@@ -398,7 +398,7 @@ button {
   color: var(--currentColor);
 }
 
-.customers-link {
+.customers-icon {
   fill: var(--currentColor);
 }
 
@@ -438,7 +438,7 @@ button {
   color: var(--background-color-grey);
 }
 
-.footer-social-headline {
+.footer-social {
   display: inline-block;
   margin-bottom: 16px;
   font-size: 16px;
@@ -457,12 +457,6 @@ button {
 .footer-social-item {
   width: 40px;
   height: 40px;
-}
-
-.footer-social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-social-link:hover,
