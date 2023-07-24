@@ -349,7 +349,7 @@ button {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: var(--active-button);
+  background-color: #404bbf;
 }
 
 .social-icon {
