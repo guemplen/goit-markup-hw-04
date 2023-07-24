@@ -400,11 +400,11 @@ button:focus {
 .footer-conteiner {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-logo {
   display: inline-block;
+  margin-right: 120px;
   margin-top: 120px;
   margin-bottom: 120px;
   margin-left: 156px;
