@@ -347,13 +347,13 @@ button {
   background-color: var(--global-color-blue);
 }
 
+.social-icon {
+  fill: var(--background-color-grey);
+}
+
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
   background-color: var(--active-button);
-}
-
-.social-icon {
-  fill: var(--background-color-grey);
 }
 
 .section-customers {
@@ -462,13 +462,13 @@ button {
   height: 100%;
 }
 
-.footer-social-link:focus,
-.footer-social-link:hover {
-  background-color: #31d0aa;
-}
-
 .footer-social-icon {
   fill: var(--background-color-grey);
+}
+
+.footer-social-link:focus .footer-social-icon,
+.footer-social-link:hover .footer-social-icon {
+  background-color: #31d0aa;
 }
 
 .portfolio {
