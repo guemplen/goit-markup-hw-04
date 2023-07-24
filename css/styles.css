@@ -384,6 +384,7 @@ button {
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon {
   fill: var(--active-button);
+  color: var(--active-button);
 }
 
 .customers-link {
@@ -397,7 +398,7 @@ button {
   color: var(--currentColor);
 }
 
-.customers-icon {
+.customers-link {
   fill: var(--currentColor);
 }
 
