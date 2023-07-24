@@ -347,9 +347,9 @@ button {
   background-color: var(--global-color-blue);
 }
 
-.social-link:hover,
-.social-link:focus {
-  background-color: #404bbf;
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  background-color: var(--active-button);
 }
 
 .social-icon {
