@@ -381,12 +381,8 @@ button {
   border: 1px solid var(--active-button);
 }
 
-.customers-link:hover .customers-icon {
-  fill: var(--active-button);
-  color: var(--active-button);
-}
-
-.customers-link:focus .customers-icon {
+.customers-link:hover,
+.customers-link:focus {
   fill: var(--active-button);
   color: var(--active-button);
 }
@@ -475,7 +471,6 @@ button {
   align-items: center;
   border-radius: 50%;
   background-color: var(--global-color-blue);
-  color: var(--background-color-grey);
   width: 100%;
   height: 100%;
 }
