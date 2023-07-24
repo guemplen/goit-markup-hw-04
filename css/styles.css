@@ -108,11 +108,6 @@ button {
 
 /* ================ COMPONENTS ================ */
 
-.logo:hover,
-.logo:focus {
-  color: var(--active-button);
-}
-
 .logo {
   margin-right: 76px;
   font-family: var(--second-font);
@@ -122,6 +117,11 @@ button {
   line-height: 1.17;
   letter-spacing: 0.54px;
   color: var(--global-color-blue);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--active-button);
 }
 
 .studio {
@@ -147,11 +147,6 @@ button {
   gap: 40px;
 }
 
-.header-menu:hover,
-.header-menu:focus {
-  color: var(--active-button);
-}
-
 .header-menu {
   margin-top: 24px;
   margin-bottom: 24px;
@@ -162,6 +157,11 @@ button {
   letter-spacing: 0.32px;
   background: var(--background-color-white);
   color: var(--second-text-color);
+}
+
+.header-menu:hover,
+.header-menu:focus {
+  color: var(--active-button);
 }
 
 .address {
@@ -175,13 +175,13 @@ button {
   font-style: normal;
 }
 
+.address-color {
+  color: var(--global-text-color);
+}
+
 .address-color:hover,
 .address-color:focus {
   color: var(--active-button);
-}
-
-.address-color {
-  color: var(--global-text-color);
 }
 
 .header-line {
@@ -337,11 +337,6 @@ button {
   height: 40px;
 }
 
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--active-button);
-}
-
 .social-link {
   display: flex;
   justify-content: center;
@@ -350,6 +345,11 @@ button {
   width: 100%;
   height: 100%;
   background-color: var(--global-color-blue);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--active-button);
 }
 
 .social-icon {
@@ -376,17 +376,6 @@ button {
   height: 88px;
 }
 
-.customers-link:hover,
-.customers-link:focus {
-  border: 1px solid var(--active-button);
-}
-
-.customers-link:hover,
-.customers-link:focus {
-  fill: var(--active-button);
-  color: var(--active-button);
-}
-
 .customers-link {
   display: flex;
   align-items: center;
@@ -396,6 +385,12 @@ button {
   border-radius: 4px;
   border: 1px solid var(--icon-color);
   color: var(--icon-color);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
 }
 
 .customers-icon {
@@ -457,14 +452,6 @@ button {
   height: 40px;
 }
 
-.footer-social-link:focus {
-  background-color: #31d0aa;
-}
-
-.footer-social-link:hover {
-  background-color: #31d0aa;
-}
-
 .footer-social-link {
   display: flex;
   justify-content: center;
@@ -473,6 +460,11 @@ button {
   background-color: var(--global-color-blue);
   width: 100%;
   height: 100%;
+}
+
+.footer-social-link:focus,
+.footer-social-link:hover {
+  background-color: #31d0aa;
 }
 
 .footer-social-icon {
