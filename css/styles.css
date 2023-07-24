@@ -347,18 +347,13 @@ button {
   background-color: var(--global-color-blue);
 }
 
-.social-icon {
-  fill: var(--background-color-grey);
-}
-
 .social-link:hover,
 .social-link:focus {
   background-color: var(--active-button);
 }
 
-.social-icon:hover,
-.social-icon:focus {
-  background-color: var(--active-button);
+.social-icon {
+  fill: var(--background-color-grey);
 }
 
 .section-customers {
@@ -467,18 +462,13 @@ button {
   height: 100%;
 }
 
-.footer-social-icon {
-  fill: var(--background-color-grey);
-}
-
 .footer-social-link:focus,
 .footer-social-link:hover {
   background-color: #31d0aa;
 }
 
-.footer-social-icon:focus,
-.footer-social-icon:hover {
-  background-color: #31d0aa;
+.footer-social-icon {
+  fill: var(--background-color-grey);
 }
 
 .portfolio {
