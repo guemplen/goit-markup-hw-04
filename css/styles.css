@@ -56,7 +56,6 @@ body {
 a:hover,
 a:focus {
   cursor: pointer;
-  color: var(--active-button);
 }
 
 .link {
@@ -120,6 +119,11 @@ button:focus {
   color: var(--global-color-blue);
 }
 
+.logo:hover,
+.logo:focus {
+  color: var(--active-button);
+}
+
 .studio {
   color: var(--second-text-color);
 }
@@ -155,6 +159,11 @@ button:focus {
   color: var(--second-text-color);
 }
 
+.header-menu:hover,
+.header-menu:focus {
+  color: var(--active-button);
+}
+
 .address {
   display: flex;
   align-items: center;
@@ -168,6 +177,11 @@ button:focus {
 
 .address-color {
   color: var(--global-text-color);
+}
+
+.address-color:hover,
+.address-color:focus {
+  color: var(--active-button);
 }
 
 .header-line {
