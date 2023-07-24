@@ -328,16 +328,19 @@ button:focus {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: var(--global-color-blue);
   width: 100%;
   height: 100%;
+  background-color: var(--global-color-blue);
 }
 
 .social-icon {
   fill: var(--background-color-grey);
 }
 
-.social-link:hover,
+.social-link:hover {
+  background-color: var(--active-button);
+}
+
 .social-link:focus {
   background-color: var(--active-button);
 }
@@ -370,6 +373,7 @@ button:focus {
   height: 100%;
   border-radius: 4px;
   border: 1px solid var(--currentColor);
+  color: var(--currentColor);
 }
 
 .customers-icon {
@@ -396,13 +400,13 @@ button:focus {
 .footer-conteiner {
   display: flex;
   align-items: baseline;
+  gap: 120px;
 }
 
-.footer-block {
+.footer-logo {
   display: inline-block;
   margin-top: 120px;
   margin-bottom: 120px;
-  margin-right: 120px;
   margin-left: 156px;
 }
 
@@ -426,8 +430,8 @@ button:focus {
   margin-bottom: 16px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 0.02em;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--background-color-white);
 }
 
@@ -463,7 +467,10 @@ button:focus {
   fill: var(--background-color-grey);
 }
 
-.footer-social-link:hover,
+.footer-social-link:hover {
+  background-color: #31d0aa;
+}
+
 .footer-social-link:focus {
   background-color: #31d0aa;
 }
